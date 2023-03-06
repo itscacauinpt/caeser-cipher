@@ -23,7 +23,5 @@ This application was development to study the Vue frameword.
 <img align="center" width="980px" src="https://raw.githubusercontent.com/itscacauinpt/itscacauinpt/media/caesercipher-cover.png"/>
 
 <div align="center">
-  :small_blue_diamond: License :small_blue_diamond:
-  <br/>
-  Copyright :copyright: <a href="linkedin.com/in/anaclaudia-de-souza">@itscacauinpt<a/> 2023 - Caeser Cipher
+  :small_blue_diamond: Copyright :copyright: <a href="https://github.com/itscacauinpt/caesercipher/blob/main/LICENSE.md">License<a/>  2023 - Caeser Cipher :small_blue_diamond:
 </div>
