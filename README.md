@@ -7,16 +7,17 @@
 
 The goal of this project was to create an application that replicates the Caeser Cipher, offering two primary features: "decode" and "encode" functions for the text select by user.
 
-This application was development to study the Vue frameword.
+This application was developed to study the Vue framework.
 
 #### :small_blue_diamond: Requirements
 
 - [x] Main page basic css
 - [x] Encode message page
 - [x] Decode message page
-- [ ] Exception regarding the user input
+- [ ] Error exceptions regarding the user input
   - type of input
   - error message to user
+- [ ] Light Mode + Dark Mode
 - [ ] Add vue testing
 
 #### :small_blue_diamond: Layout
