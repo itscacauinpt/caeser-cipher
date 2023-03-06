@@ -1,6 +1,6 @@
 # :small_blue_diamond: Caeser Cipher :small_blue_diamond:
 > Status: deployed - March/2023 :heavy_check_mark: | constant development :warning:
-> 
+>
 > Access page https://caesercipher.vercel.app
 
 ##### _If he had anything confidential to say, he wrote it in cipher (...)_
@@ -20,7 +20,7 @@ This application was development to study the Vue frameword.
 - [ ] Add vue testing
 
 #### :small_blue_diamond: Layout
-<img width="280px" src="..."/>
+<img align="center" width="980px" src="https://raw.githubusercontent.com/itscacauinpt/itscacauinpt/media/caesercipher-cover.png"/>
 
 <div align="center">
   :small_blue_diamond: License :small_blue_diamond:
