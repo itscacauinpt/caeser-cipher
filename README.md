@@ -1,36 +1,19 @@
-# caeser-cipher
+~readme in construction :warning:~
+# Caeser Cipher
+###### ou Cifra de Cesar
 
-This template should help get you started developing with Vue 3 in Vite.
+> Status: deployed - March/2023 :heavy_check_mark: | constant development :warning:
+> 
+> Access page https://caesercipher.vercel.app
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+#### Layout
+<img width="280px" src="..."/>
 
-## Customize configuration
+#### Requirements
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-# caeser-cipher
+<div align="center">
+  Copyright :copyright: <a href="linkedin.com/in/anaclaudia-de-souza">@itscacauinpt<a/> 2023 - Caeser Cipher
+</div>
