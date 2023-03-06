@@ -14,3 +14,21 @@ export const decodeFunc = (letter) => {
     }
   }
 }
+
+export const encodeFunc = (letter) => {
+  for (let i = 0; i < alphabet.length; i++) {
+    if (letter == ' ') return ' '
+
+    else if (alphabet[i] == letter) {
+      const margin = 2
+      let summup = alphabet.length + i
+
+      if (summup <= alphabet.length + margin) {
+        let index = summup - 3
+        return alphabet[index]
+      }
+
+      return alphabet[summup - 3 - alphabet.length]
+    }
+  }
+}
