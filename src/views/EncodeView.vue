@@ -51,14 +51,29 @@ const getMessage = () => {
   padding: 22px 24px;
   border-radius: 8px;
   background-color: var(--vt-c-bg-soft);
-  margin-bottom: 1.2em;
+  margin: 1em;
+}
+
+.textstyle {
+  white-space: pre-line;
+}
+
+.plaintext {
+  padding: 22px 24px;
+  border-radius: 8px;
+  background-color: var(--vt-c-bg-soft);
+  margin: 1em;
 }
 
 @media (min-width: 1024px) {
-  .encode {
-    min-height: 100vh;
+  main {
     display: flex;
-    align-items: center;
+    place-items: center;
+    text-align: left;
+    margin-left: -1rem;
+    font-size: 1rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
   }
 }
 </style>
