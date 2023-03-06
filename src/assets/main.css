@@ -49,8 +49,8 @@ textarea {
   background: transparent;
   border-radius: 4px;
   padding: 0.2em 0.6em;
-  margin-top: 10px;
   color: beige;
+  resize: none;
 }
 
 input {
