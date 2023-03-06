@@ -5,15 +5,30 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <h1 class="green">You did it!</h1>
+      <h1 class="green">Caesar Cipher</h1>
       <h3>
-        A brief explication of what caeser cipher is
-        <a href="https://vitejs.dev/" target="_blank" rel="noopener">link wiki</a>.
+        More details in
+        <a
+          href="https://en.wikipedia.org/wiki/Caesar_cipher"
+          target="_blank"
+          rel="noopener"
+        >
+          link wiki
+        </a>.
       </h3>
       <nav>
         <RouterLink to="/">Encode</RouterLink>
         <RouterLink to="/decode">Decode</RouterLink>
       </nav>
+      <div class="wrapper_p">
+        <p>
+          "If he had anything confidential to say, he wrote it in cipher, that is, by so changing the order of the letters of the alphabet, that not a word could be made out. If anyone wishes to decipher these, and get at their meaning, he must substitute the fourth letter of the alphabet, namely D, for A, and so with the others."
+        </p>
+        <p>
+          - Suetonius, Life of Julius Caesar
+        </p>
+      </div>
+      <p>YFD CXK LC QEB PBPE SLIRJB LKB LK PMLQFCV</p>
     </div>
   </header>
 
@@ -24,6 +39,7 @@ import { RouterLink, RouterView } from 'vue-router'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  padding-left: 2rem;
 }
 
 nav {
@@ -51,6 +67,11 @@ nav a:first-of-type {
   border: 0;
 }
 
+.wrapper_p {
+  line-height: 1.5;;
+  padding: 2rem 0rem;
+}
+
 @media (min-width: 1024px) {
   header {
     display: flex;
@@ -58,7 +79,7 @@ nav a:first-of-type {
     padding-right: calc(var(--section-gap) / 2);
   }
 
-  header .wrapper {
+  header .wrapper .wrapper_p {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
